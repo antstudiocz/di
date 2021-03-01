@@ -21,10 +21,7 @@ abstract class CompilerExtension
 
 	protected Compiler $compiler;
 	protected string $name;
-
-	/** @var array|object */
-	protected $config = [];
-
+	protected array|object $config = [];
 	protected Nette\PhpGenerator\Closure $initialization;
 
 
